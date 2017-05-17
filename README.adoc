@@ -2,11 +2,11 @@
 
 Conference talk and materials 
 
-link:blob/master/Swarm_Kafka.pdf[Slides]
+link:Swarm_Kafka.pdf[Slides]
 
-link:blob/master/WebSocket[WebSocket to Kafka bridge]
+link:WebSocket[WebSocket to Kafka bridge]
 
-link:blob/master/swarm-kafka[MicroProfile producer]
+link:swarm-kafka[MicroProfile producer]
 
-link:blob/master/swarm-kafka-consumer[MicroProfile consumer]
+link:swarm-kafka-consumer[MicroProfile consumer]
 
