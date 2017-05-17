@@ -1,0 +1,30 @@
+<html>
+
+	<body>
+
+		<h2>Hello there - this is awesome UI skills</h2>
+
+		<div id="mover">
+
+		</div>
+
+	</body>
+
+<script>
+var websocket = new WebSocket("ws://localhost:7000/kafkabridge");
+websocket.onopen = function(evt) {console.log("Connected to WS bridge"); }
+
+document.onmousemove = function foo(e) {
+	const obj = {};
+	obj.x = e.clientX;
+	obj.y = e.clientY;
+	var renderedPayload =  JSON.stringify((obj));
+
+	document.getElementById("mover").innerHTML = renderedPayload;
+        websocket.send(renderedPayload);
+}
+
+
+
+</script>
+</html>
