@@ -2,7 +2,7 @@
 
 Conference talk and materials 
 
-link:Swarm_Kafka.pdf[Slides]
+link:https://speakerdeck.com/matzew/stream-processing-with-microprofile-and-apache-kafka[Slides]
 
 link:WebSocket[WebSocket to Kafka bridge]
 
